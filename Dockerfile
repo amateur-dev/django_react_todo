@@ -12,5 +12,5 @@ RUN sudo apt-get install nodejs -y
 RUN npm install -g create-react-app
 RUN alias python=python3
 RUN alias pip=pip3
-RUN pip3 install -r requirements.txt
+RUN pip3 install django
 CMD tail -f /dev/null
